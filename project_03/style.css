@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.ping-pong-image {
+    height: 400px;
+}
+
+.image-caption {
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.score {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+.score.playing {
+    font-size: 1.8rem;
+    font-weight:bold;
+}
+

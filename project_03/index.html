@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project_03</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+
+
+    <div class="container-fluid d-flex justify-content-center">
+        <div class="card" style="width: 30rem;">
+             
+            <img src="https://images.unsplash.com/photo-1534158914592-062992fbe900?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3784&q=80" alt="ping_pong">
+            <div class="card-body m-0">
+                <header class="card-header">
+                    <h5 class="card-header-title">Ping Pong Score Keeper</h5>
+                </header>
+                
+                
+                <p class="score"><span id="p1-score" class="score">0</span> to <span id="p2-score" class="score">0</span></p>
+                <p>Use the bottoms below to keep the score</p>
+
+                <div class="row">
+                    <label class="score playing col-4 pe-0">Playing to</label>
+
+                    <select class="form-select col rounded-5" aria-label="Default select example">
+                        <option value="3" selected>3</option>
+                        <option value="5">5</option>
+                        <option value="7">7</option>
+                    </select>
+                    <span class="col-6"></span>
+                </div>
+                
+
+                <div class="row mt-2">
+                    <button class="btn btn-success col ms-2" id="p1-btn">+ 1 Player One</button>
+                    <button class="btn btn-primary col mx-2" id="p2-btn">+ 2 Player Two</button>
+                    <button class="btn btn-danger col me-2" id="reset-btn">Reset</button>
+                </div>
+              
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="app.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html> 

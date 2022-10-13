@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Race Registration!</h1>
+
+    <form action="/submit">
+
+        <div>
+            <label for="fname">First Name</label>
+            <input type="text" required id="fname" name="fname">
+
+            <label for="lname">Last Name</label>
+            <input type="text" required id="lname" name="lname">
+        </div>
+
+        <div>
+            <p>Select a Race:</p>
+
+            <input type="radio" name="options" id="option1" required>
+            <label for="option1">Fun Run 5k</label>
+            
+            <br>
+
+            <input type="radio" name="options" id="option2" required>
+            <label for="option2">Half Marathon</label>
+            
+            <br>
+
+            <input type="radio" name="options" id="option3" required>
+            <label for="option3">Full Marathon</label>
+            
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+
+        <div>
+            <label for="age">Select Age Group</label>
+            <select name="age" id="age">
+                <option value="under 18"  selected>under 18</option>
+                <option value="18-30">18-30</option>
+                <option value="31-50">31-50</option>
+                <option value="51+">51+</option>
+            </select>
+        </div>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <div class="parent">
+        <div class="child"></div>
+        </div>
+
+    <!-- Edit multi-line: Alt + Left Click -->
+    <h3 class="h3">h</h3>
+    <div></div>
+    <h3 class="h3">h</h3>
+    <h3 class="h3">h</h3>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum quidem molestiae quasi atque laboriosam nulla voluptatibus repellat iure enim. At est modi sapiente in officiis omnis, quisquam autem tenetur inventore.
+    Voluptates in laborum mollitia quas magni eveniet assumenda unde ad labore? Ut, quasi doloribus rerum laudantium possimus ex laborum distinctio repudiandae, architecto, quae quidem. Alias quaerat repellendus quod nulla necessitatibus.
+    Soluta temporibus expedita, officiis aspernatur exercitationem minus! Cumque officia porro maiores velit culpa quos eaque assumenda, autem modi non dolorem architecto mollitia sint dolorum, exercitationem similique unde, deserunt sequi obcaecati.
+    Laborum, quisquam voluptatem error, autem officiis eligendi earum, sequi eum accusamus saepe ad. Dolore, laborum sunt, obcaecati velit quasi sequi alias eum eos aperiam quis hic deleniti saepe veniam iusto.
+    Officiis, necessitatibus! Fugiat quas est omnis ratione incidunt laudantium consequuntur numquam ab odit quam nihil cum sunt laboriosam sint, vitae magnam illo, quasi accusantium nesciunt mollitia assumenda, quae dolores! Eum.</p>
+
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/::before">MDN Docs</a>
+   
+</body>
+</html>

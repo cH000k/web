@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+/* Navbar */
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.img-logo {
+    height: 30px;
+    width: auto;
+}
+
+#navbarNav {
+    padding: 0;
+    margin: 0;
+}
+
+.link-item {
+    border-bottom: 3px solid transparent;
+    transition: 250ms ease;
+}
+
+.link-item:hover {
+    border-bottom: 3px solid green;
+}
+
+.btn.btn-outline-success {
+    outline: none !important;
+}
+
+/* Main Contents */
+.main-picture {
+    background-image: url("/project_02/images/unplash-2.jpg");
+    background-color: antiquewhite;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.fieldset-style {
+    border: 1px solid red;
+}
+
+/* https://stackoverflow.com/questions/71931967/fieldset-has-no-border
+ Fieldset legend does not work everything is turned off for fieldset borders in Bootstrap 5. To get the original alignment of the Legend (inline with the border) you have to set the Legend float:none; and width:auto; */
+legend {
+    float: none;
+    width: auto;
+    font-size: 1.3rem;
+    transform: translateY(8px) !important;
+}
+
+.service-title {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.legend-left {
+    color: #4CAF50;
+}
+
+.legend-mid {
+    color: #2fb6f9;
+}
+
+.legend-right {
+    color: #fe3030;
+}
+
+@media (min-width: 2000px) {
+    .main-picture {
+        background-image: url("/project_02/images/unplash-2.jpg");
+        background-color: antiquewhite;
+        background-size: cover;
+        height: 1000px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1035px) {
+    .sub-txt {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .heading-text {
+        position: absolute;
+        top: 65%;
+        left: 35%;
+    }
+}
+
+@media (max-width: 992px) {
+    .main-txt {
+        font-size: 3.5rem;
+    }
+
+    .heading-text {
+        position: absolute;
+        top: 65%;
+        left: 35%;
+    }
+}
+
+@media (max-width: 850px) {
+    .main-txt {
+        font-size: 3rem;
+    }
+
+    .main-picture {
+        background-image: url("/project_02/images/unplash-5.jpg");
+        background-color: antiquewhite;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-txt {
+        font-size: 4rem;
+    }
+
+    .sub-txt {
+        font-size: 1rem;
+    }
+
+    .main-picture {
+        background-image: url("/project_02/images/unplash-4.jpg");
+        background-color: antiquewhite;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+    }
+
+    .heading-text {
+        position: absolute;
+        top: 50%;
+        left: 20%;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-txt {
+        font-size: 3.4rem;
+    }
+
+    .heading-text {
+        position: absolute;
+        top: 60%;
+        left: 5%;
+    }
+}
+
+/* Last Breakpoint for my browser */
+@media (max-width: 470px) {
+    .main-txt {
+        font-size: 3rem;
+    }
+
+    .sub-txt {
+        font-size: 1rem;
+    }
+
+    .heading-text {
+        position: absolute;
+        top: 60%;
+        left: 0%;
+    }
+}
