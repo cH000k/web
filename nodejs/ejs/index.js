@@ -6,12 +6,17 @@ const { fileURLToPath } = require('url');
 const redditData = require('./data.json');
 console.log(redditData);
 
+// app.use will allway be executed every single time
+// Also used absolute path based on index.js file
+app.use(express.static(path.join(__dirname, '/public')));
+
 // Use EJS. No need to require the package
 app.set('view engine', 'ejs');
 
-// Set path to cwd and add /views
+// Set absolute path to cwd and add /views
 app.set('views', path.join(__dirname, '/views'));
 
+// Home Page
 app.get('/', (req, res) => {
     res.render('home');
 })
