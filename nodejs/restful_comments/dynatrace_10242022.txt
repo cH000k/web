@@ -1,0 +1,55 @@
+Ticket -it debugging, it should be assigned to L2 or L3
+
+Intercom
+- we are in a good shape
+- anagha will follow up with agata
+- if they want to continue testing, if Agata has some suggestions, make changes
+
+-operator> opens messenger > EAP Common Issue
+
+new unction - production support alert4
+
+Dynatrace
+
+
+
+
+
+
+
+check if user is really block, how block are they, more analysis
+
+is it user error? or product error? 
+
+
+if nothing we can do, always assign to L3.
+
+
+summarized version on the week
+
+
+dynatrace
+
+
+~~~Ticket Analysis
+Looking at 20 tickets, two categories
+
+1. If user has not submitted global group - user error - not critically 90% blocked
+2. If dependency is upon the product - 
+
+
+are we only concern about 90%, how about for other categories
+
+high level for all categories
+
+
+~~clean up on docu veera will send
+~~we should confirm the whats the difference between dynatrace alert
+
+
+90% - 15
+75% - 2
+50% - 2
+25% - 4
+10% - 1
+Not categorized - 3 

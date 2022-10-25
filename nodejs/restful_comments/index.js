@@ -34,31 +34,25 @@ app.post('/', (req, res) => {
 // Show One Comment
 app.get('/:id', (req, res) => {
     const { id } = req.params;
+    const comment = comments.find(c => c.id === id)
+    res.render('details', {comment});
+})
 
-    let comment = '';
-
-    for (let c of comments) {
-        if (id === c.id) { comment = c };  
-    }
-
+// Edit One Comment 
+app.get('/:id/edit', (req, res) => {
+    const { id } = req.params;
+    const comment = comments.find(c => c.id === id)
     res.render('update', {comment});
 })
 
-// Update One Comment - not done
-app.patch('/', (req, res) => {
-    const { id, username, comment } = req.body;
-    console.log(`id: ${id}`);
-    console.log(`username: ${username}`);
-    console.log(`comment: ${comment}`);
-
-    for (let c of comments) {
-        if (id === c.id) {
-            c.comment = comment;
-            c.username = username
-        };  
-    }
-    res.render('index');
+// Update One Comment
+app.patch('/:id', (req, res) => {
+    const { id } = req.params;
+    const newComment = req.body.comment;
+    console.log(newComment);
+    res.send("OKAY");
 })
+
 app.listen(port, () => {
     console.log(`LISTENING ON PORT ${port}`);
 })

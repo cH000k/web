@@ -1,0 +1,50 @@
+break scripts into two
+
+we need to get the date time and url of the workspace
+
+open jeff's dt script to a new tab
+
+Anagha crates a new synthetic and Jeff asks to DL and edit JS code, copy from line 252 all the way to the top
+
+get datetime out of DOM
+
+On new synthetic edit the Script and paste the one we copy until line 252
+
+
+~~2nd try
+
+copy Anagha's initial script from Anagha's DT, copy from 236 until 252 
+after
+
+
+paste to 232?? all the js code from Jeff to Anagha
+
+The rest of functionality might need to be done using JS
+
+
+Name of New Synthetic: AP Domino Data Labs - Producer
+
+Run  AP Domino Data Labs - Producer then we need to run another Synthetic afterwards
+
+
+Might be DT is struck because 4 workspaces are open
+
+We can go over to make separate project for each workspace IDE
+1 workspace 1 project
+
+~~First DT run is successful
+~~Need to trigger Synthetic again after deleting workspaces
+
+
+
+Next Steps: Record next script
+New meeting on Monday
+
+
+come up a project name - svp_dt_synthetic_IDE NAME
+
+
+
+
+1. Import CSV with Null Values
+2. Fill in 'resol

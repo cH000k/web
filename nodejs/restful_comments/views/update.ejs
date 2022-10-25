@@ -9,16 +9,12 @@
 <body>
     <h1>Update Comment</h1>
     <a href="/">Home</a>
-    <form action="/" method="patch">
+    <form action="/<%= comment.id %>" method="patch">
         <h3>Current</h3>
-        <p>Username: <%=comment.username%> </p>
-        <p>Comment:  <%=comment.comment%> </p>
+        <p><b>Username:</b> <%=comment.username%> </p>
+        <p><b>Comment:</b> <%=comment.comment%> </p>
 
         <h3>Update</h3>
-        <label for="username">Username: </label>
-        <input type="text" name="username" id="username">
-
-        <br>
         <label for="comment">Comment</label>
         <br>
         <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
